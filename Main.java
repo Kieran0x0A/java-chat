@@ -34,7 +34,6 @@ public class Main {
 				System.exit(0);
 			}
 			System.out.print(String.format("From client ~> %s\n", input));
-			System.out.print("Server: ");
 			server_input(conn, output, input);
 		}
 	}
