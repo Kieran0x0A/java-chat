@@ -2,7 +2,7 @@ import java.io.*;
 import java.util.*;
 import java.net.*;
 
-public class Main extends Thread {
+public class Main extends {
 	public static void main(String[] args) throws IOException {
 		ServerSocket ss = new ServerSocket(55555);
 		System.out.println("Server has been started, waiting for client connections...");
